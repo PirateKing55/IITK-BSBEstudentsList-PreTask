@@ -1,15 +1,67 @@
 # Amrit Web-Dev Assignment
 
-## IITK BSBE Students-List
+## # IITK BSBE Students-List
 
 <h2>Getting Started</h2>
 
-<p>To get started with this project, you will need to have <strong>Node.js</strong> and <strong>NPM</strong> installed on your system.</p>
+1. To get started with this project, you will need to have `Node.js` and `NPM` installed on your system.
 
-<ol>
-	<li>Clone this repository to your local system</li>
-	<li>Open the terminal and navigate to the project's directory</li>
-	<li>Run <code>npm install</code> to install the dependencies</li>
-	<li>Run <code>npm run dev</code> to start the server</li>
-	<li>Open your web browser and navigate to <code>http://localhost:5173</code> to view the live application running on your browser.</li>
-</ol>
+2. First, you need to open a `Terminal` in your system and `Clone` this repository by using :
+
+```bash
+git clone https://github.com/PirateKing55/Amrit-WebDev-IITK.git
+```
+
+3. Navigate to the Project's directory :
+
+```bash
+cd Amrit-WebDev-IITK
+```
+
+4. Install all Dependencies used in this Project :
+
+```bash
+npm install
+```
+
+5. Finally, host it on local server :
+
+```bash
+npm run dev
+```
+
+6. Now just search this in your browser to view the live running application in your Local sysytem :
+
+```bash
+http://localhost:5173
+```
+
+<h2>Paths & Files</h2>
+
+### Structure of the Files in this Repo :
+
+```text
+.
+├── public
+│  └──images
+├── src
+│  ├── components
+│     ├── Card.jsx
+│     ├── Footer.jsx
+│     ├── Header.jsx
+│     ├── students-data.js
+│  ├── css
+│     ├── style.css
+│  ├── App.jsx
+│  ├── index.jsx
+├── .gitattributes
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── vite.config.js
+```
+
+# Thank You
+
