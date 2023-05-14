@@ -48,6 +48,10 @@ header h1 {
   display: inline-block;
 }
 
+.mk-card:hover {
+  zoom: 110%;
+}
+
 .mk-card h1 {
   font-size: 1.1em;
   margin-bottom: 5px;
