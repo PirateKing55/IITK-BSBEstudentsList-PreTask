@@ -9,13 +9,13 @@
 2. First, you need to open a `Terminal` in your system and `Clone` this repository by using :
 
 ```bash
-git clone https://github.com/PirateKing55/Amrit-WebDev-IITK.git
+git clone https://github.com/PirateKing55/IITK-BSBEstudentsList-PreTask.git
 ```
 
 3. Navigate to the Project's directory :
 
 ```bash
-cd Amrit-WebDev-IITK
+cd IITK-BSBEstudentsList-PreTask
 ```
 
 4. Install all Dependencies used in this Project :
@@ -46,22 +46,22 @@ http://localhost:5173
 │  └──images
 ├── src
 │  ├── components
-│     ├── Card.jsx
-│     ├── Footer.jsx
-│     ├── Header.jsx
-│     ├── students-data.js
+│       ├── Header.jsx
+│       ├── Footer.jsx
+│       ├── Card.jsx
+│       ├── CreateCard.jsx
+│       ├── students-data.js
 │  ├── css
-│     ├── style.css
+│       ├── style.css
 │  ├── App.jsx
 │  ├── index.jsx
-├── .gitattributes
-├── .gitignore
 ├── index.html
-├── package-lock.json
-├── package.json
 ├── README.md
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── .gitattributes
 ├── vite.config.js
 ```
 
 # Thank You
-
