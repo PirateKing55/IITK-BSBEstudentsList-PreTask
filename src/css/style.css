@@ -31,14 +31,24 @@ header h1 {
 }
 
 #first-heading {
-  padding: 35px 0 20px 0px;
+  margin-left: 80px;
+  padding-top: 35px;
 }
 
 #second-heading {
-  padding: 60px 0 20px 0px;
+  margin-left: 80px;
+  padding-top: 70px;
 }
 
-.mk-card {
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem auto;
+  max-width: 90%;
+}
+
+.all-cards > .mk-card {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
@@ -50,7 +60,7 @@ header h1 {
 }
 
 .mk-card:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
   cursor: pointer;
 }
 
