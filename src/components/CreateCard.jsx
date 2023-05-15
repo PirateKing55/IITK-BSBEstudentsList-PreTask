@@ -1,8 +1,8 @@
 //
 import Card from "./Card";
 
-function CreateCard(data) {
-  return <Card title={data.name} content={data.rollNo} />;
+function CreateCard({ name, rollNo }) {
+  return <Card studentName={name} studentRoll={rollNo} />;
 }
 
 export default CreateCard;

@@ -72,7 +72,13 @@ header h1 {
 .mk-card p {
   font-size: 0.9em;
   margin-bottom: 5px;
-  /* white-space: pre-wrap; */
+}
+
+.student-logo {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  width: 60px;
+  height: 60px;
 }
 
 footer {

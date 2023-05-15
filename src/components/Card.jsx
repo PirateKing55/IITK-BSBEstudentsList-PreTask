@@ -1,14 +1,16 @@
 //
-const Card = (props) => {
+import StudentsLogo from "./StudentsLogo";
+
+function Card({ studentName, studentRoll }) {
   return (
-      <div className="mk-card">
-        <h1>{props.title}</h1>
-        <p>
-          <b>Roll:</b> {props.content}
-        </p>
-        <img src="images/iitk-logo.png" alt="pic" width="60px" />
-      </div>
+    <div className="mk-card">
+      <h1>{studentName}</h1>
+      <p>
+        <b>Roll:</b> {studentRoll}
+      </p>
+      <StudentsLogo />
+    </div>
   );
-};
+}
 
 export default Card;

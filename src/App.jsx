@@ -8,7 +8,7 @@ import CreateCard from "./components/CreateCard";
 import studentsData from "./components/students-data";
 const { bsbeY20, bsbeY21 } = studentsData;
 
-const App = () => {
+function App() {
   return (
     <>
       <Header />
@@ -28,6 +28,6 @@ const App = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default App;
