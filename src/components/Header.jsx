@@ -1,5 +1,5 @@
 //
-function Heading() {
+function Header() {
   return (
     <header>
       <h1 className="header">BSBE Students-List</h1>
@@ -7,4 +7,4 @@ function Heading() {
   );
 }
 
-export default Heading;
+export default Header;

@@ -1,4 +1,4 @@
-const studentsList = {
+ export default {
   bsbeY20: [
     {
       rollNo: "200032",
@@ -410,4 +410,3 @@ const studentsList = {
   ],
 };
 
-export default studentsList;

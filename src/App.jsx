@@ -3,7 +3,7 @@ import "./css/style.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import CreateCard from "./components/CreateCard";
+import CreateCard from "./components/Card";
 
 import studentsData from "./components/students-data";
 const { bsbeY20, bsbeY21 } = studentsData;
