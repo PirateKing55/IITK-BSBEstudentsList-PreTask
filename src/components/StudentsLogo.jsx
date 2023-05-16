@@ -6,7 +6,7 @@ function StudentsLogo() {
     "https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature";
   const [data, setData] = useState({});
 
-  const fetchInfo = async () => {
+  async function fetchInfo() {
     const response = await fetch(url);
     const data = await response.json();
     setData(data);
