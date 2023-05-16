@@ -20,7 +20,7 @@ function App() {
       <dl className="all-cards">{bsbeY20.map(CreateCard)}</dl>
 
       <h1 id="second-heading">
-        <u>BSBE Students of &nbsp; Y-21</u> :
+        <u>BSBE Students of &nbsp; Y-21</u> 
       </h1>
 
       <dl className="all-cards">{bsbeY21.map(CreateCard)}</dl>
