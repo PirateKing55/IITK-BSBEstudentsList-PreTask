@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 function StudentsLogo() {
   const url =
     "https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature";
+    
   const [data, setData] = useState({});
 
   async function fetchInfo() {

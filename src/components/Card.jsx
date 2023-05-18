@@ -13,10 +13,4 @@ function Card({ studentName, studentRoll }) {
   );
 }
 
-function CreateCard({name, rollNo}) {
-  return(
-    <Card studentName={name} studentRoll={rollNo} />
-  )
-}
-
-export default CreateCard;
+export default Card;

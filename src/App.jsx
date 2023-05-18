@@ -3,10 +3,15 @@ import "./css/style.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import CreateCard from "./components/Card";
+import Card from "./components/Card";
 
-import studentsData from "./components/students-data";
-const { bsbeY20, bsbeY21 } = studentsData;
+import studentsData from "./components/studentsDB";
+
+function CreateCard({name, rollNo}) {
+  return(
+    <Card studentName={name} studentRoll={rollNo} />
+  )
+}
 
 function App() {
   return (
@@ -17,13 +22,13 @@ function App() {
         <u>BSBE Students of &nbsp; Y-20</u> :
       </h1>
 
-      <dl className="all-cards">{bsbeY20.map(CreateCard)}</dl>
+      <dl className="all-cards">{studentsData.bsbeY20.map(CreateCard)}</dl>
 
       <h1 id="second-heading">
         <u>BSBE Students of &nbsp; Y-21</u> 
       </h1>
 
-      <dl className="all-cards">{bsbeY21.map(CreateCard)}</dl>
+      <dl className="all-cards">{studentsData.bsbeY21.map(CreateCard)}</dl>
 
       <Footer />
     </>
